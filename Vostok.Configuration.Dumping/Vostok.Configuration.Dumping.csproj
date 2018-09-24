@@ -22,7 +22,7 @@
   <PropertyGroup>
     <PackageProjectUrl>https://github.com/vostok/configuration.dumping</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/vostok/configuration.dumping/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageTags>vostok</PackageTags>
+    <PackageTags>vostok vostok.configuration</PackageTags>
     <RepositoryUrl>https://github.com/vostok/configuration.dumping</RepositoryUrl>
   </PropertyGroup>
 
