@@ -1,0 +1,17 @@
+notests *default:
+  build:
+    target: Vostok.Configuration.Dumping.sln
+    configuration: NoTests
+    tool:
+      name: dotnet
+
+  install:
+    - Vostok.Configuration.Dumping/bin/Release/netstandard2.0/Vostok.Configuration.Dumping.dll
+
+  deps:
+    - vostok.devtools
+
+full-build > notests:
+  build:
+    target: Vostok.Configuration.Dumping.sln
+    configuration: Release
