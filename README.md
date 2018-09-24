@@ -1,1 +1,1 @@
-# configuration.dumper
+# configuration.dumpers
