@@ -21,4 +21,10 @@
     <ProjectReference Include="..\Vostok.Configuration.Dumping\Vostok.Configuration.Dumping.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Vostok.Configuration.Abstractions">
+      <HintPath>..\..\vostok.configuration.abstractions\Vostok.Configuration.Abstractions\bin\Release\netstandard2.0\Vostok.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
